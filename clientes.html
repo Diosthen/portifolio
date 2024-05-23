@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- BOX ICONS ---------- -->
+    <link href='assets/boxicons/css/boxicons.min.css' rel='stylesheet'>
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio | VCACH</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Cach</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="index.html#inicio" class="nav-link">Início</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html#sobre" class="nav-link">Sobre</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html#mercado" class="nav-link">Mercado</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="index.html#contato" class="nav-link">Contato</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="assets/pdf/cv_vladmir_cach.pdf">
+                <button class="btn">Baixar CV <i class="bx bx-file"></i></button>
+            </a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <!-- <section class="featured-box" id="inicio">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Vladmir Cach</span>
+            </div>
+            <div class="featured-name">
+                <p>Eu sou <br> <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>
+                    Desenvolvedor de Softwares especializado em WebSites com experiência de 8 anos
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="index.html#contato">
+                    <button class="btn blue-btn">Contata-me</button>
+                </a>
+                <a href="assets/pdf/cv_vladmir_cach.pdf">
+                    <button class="btn">Baixar CV <i class="bx bx-file"></i></button>
+                </a>
+            </div>
+            <div class="social_icons">
+                <a href="#contato">
+                    <div class="icon"><i class="bx bx-phone"></i></div>
+                </a>
+                <div class="icon"><i class="bx bxl-facebook"></i></div>
+                <div class="icon"><i class="bx bxl-linkedin"></i></div>
+                <div class="icon"><i class="bx bxl-github"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#projetos" class="scroll-btn">
+                <i class="bx bx-mouse-alt"></i>
+                <p>pra baixo</p>
+            </a>
+          </div>
+       </section> -->
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <br><br>
+       <section class="section" id="projetos">
+          <div class="top-header">
+              <h1>Clientes</h1>
+              <p style="color: var(--text-color-second);">
+                Confere o Testemunho dos meus Clientes, entre eles, estudantes universitários e médios, empreendedores e outros...
+            </p>
+          </div>
+          <div class="cliente-container">
+            <div class="cliente-box" style="background: linear-gradient(45deg, var(--second-color-opac), var(--third-color-opac));">
+                <img src="assets/images/avatar.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+                <h3>Vladmir Cachinguembi <br> <span>Est. Universitário</span></h3>
+                <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, ipsum.</label>
+            </div>
+            <div class="cliente-box" style="background: linear-gradient(45deg, var(--second-color-opac), var(--third-color-opac));">
+                <img src="assets/images/avatar.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+                <h3>Vladmir Cachinguembi <br> <span>Est. Médio</span></h3>
+                <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis eveniet labore doloremque veritatis laboriosam facere eum delectus aliquid et.</label>
+            </div>
+            <div class="cliente-box" style="background: linear-gradient(45deg, var(--second-color-opac), var(--third-color-opac));">
+                <img src="assets/images/avatar.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+                <h3>Vladmir Cachinguembi <br> <span>Empreendedor</span></h3>
+                <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, exercitationem enim consequuntur accusantium animi porro aliquam quos odit provident eaque distinctio ipsam suscipit ut explicabo quam nam praesentium obcaecati cum!</label>
+            </div>
+            <div class="cliente-box" style="background: linear-gradient(45deg, var(--second-color-opac), var(--third-color-opac));">
+                <img src="assets/images/avatar.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+                <h3>Vladmir Cachinguembi <br> <span>Est. Universitário</span></h3>
+                <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat vel delectus ullam sed dicta blanditiis suscipit, sit neque repudiandae magnam incidunt? Dignissimos architecto consequatur quia voluptas, corporis, voluptatum aperiam voluptatibus, soluta ipsum ea est omnis. Tempora, accusamus? Illum, delectus deserunt!</label>
+            </div>
+            <div class="cliente-box" style="background: linear-gradient(45deg, var(--second-color-opac), var(--third-color-opac));">
+                <img src="assets/images/avatar.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+                <h3>Vladmir Cachinguembi <br> <span>Est. Universitário</span></h3>
+                <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat vel delectus ullam sed dicta blanditiis suscipit, sit neque repudiandae magnam incidunt? Dignissimos architecto consequatur quia voluptas, corporis, voluptatum aperiam voluptatibus, soluta ipsum ea est omnis. Tempora, accusamus? Illum, delectus deserunt!</label>
+            </div>
+            
+            
+          </div>
+       </section>
+    </main>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Vladmir Cach .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="index.html#inicio">Início</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="index.html#sobre">Sobre</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="index.html#mercado">Mercado</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="index.html#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="index.html#contato">
+                <div class="icon"><i class="bx bx-phone"></i></div>
+            </a>
+            <a href="https://www.facebook.com/vladimircachinguembi.vlad/">
+                <div class="icon"><i class="bx bxl-facebook"></i></div>
+            </a>
+            <a href="https://www.linkedin.com/in/vcach333/">
+                <div class="icon"><i class="bx bxl-linkedin"></i></div>
+            </a>
+            <a href="https://github.com/VCach333/">
+                <div class="icon"><i class="bx bxl-github"></i></div>
+            </a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <span id="ano_criacao">2024</span> <a href="#inicio" style="text-decoration: none;">Vladmir Cach</a> - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="assets/js/typed.umd.js"></script>
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="assets/js/scrollreveal.js"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        var ano_criacao = document.getElementById('ano_criacao').textContent;
+        var ano_atual = new Date().getFullYear();
+        var ano_comeco_experiencia = 2016;
+
+
+        document.getElementById('experiencia').innerText = ano_atual - ano_comeco_experiencia;
+
+        if (ano_atual > ano_criacao) {
+            document.getElementById('ano_criacao').innerText += ` - ${ano_atual}`;
+        }
+
+
+    </script>
+</body>
+</html>

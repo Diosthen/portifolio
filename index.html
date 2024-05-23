@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- BOX ICONS ---------- -->
+    <link href='assets/boxicons/css/boxicons.min.css' rel='stylesheet'>
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio |Diosthenes</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Diosth</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#inicio" class="nav-link active-link" onclick="myMenuFunction()">Início</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#sobre" class="nav-link" onclick="myMenuFunction()">Sobre</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#mercado" class="nav-link" onclick="myMenuFunction()">Mercado</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contato" class="nav-link" onclick="myMenuFunction()">Contato</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="cv_diosth.pdf">
+                    <button class="btn">Baixar CV <i class="bx bx-file"></i></button>
+                </a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="inicio">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Diosthenes da Costa</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Eu sou <br> <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>
+                            Desenvolvedor de Softwares especializado em WebSites,Sistemas e aplicações com experiência de 8 anos
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="#contato">
+                            <button class="btn blue-btn">Contata-me</button>
+                        </a>
+                        <a href="cv_diosth.pdf">
+                            <button class="btn">Baixar CV <i class="bx bx-file"></i></button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <a href="#contato">
+                            <div class="icon">
+                                <i class="bx bx-phone"></i>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="icon"><i class="bx bxl-facebook"></i></div>
+                        </a>
+                        <a href="">
+                            <div class="icon"><i class="bx bxl-linkedin"></i></div>
+                        </a>
+                        <a href="">
+                            <div class="icon"><i class="bx bxl-github"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="avatar.png" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box hide-on-small">
+                    <a href="#sobre" class="scroll-btn">
+                        <i class="bx bx-mouse-alt"></i>
+                        <p>pra baixo</p>
+                    </a>
+                </div>
+            </section>
+            <!-- -------------- sobre BOX ---------------- -->
+            <section class="section" id="sobre">
+                <div class="top-header">
+                    <h1>Sobre mim</h1>
+                    
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="sobre-info">
+                            <h3>Minha Apresentação</h3>
+                            <p>
+                                Olá, meu nome é Diosthenes da Costa, sou estudante Universitário no INSTIC no curso de Eng.
+                                Informática. Ao longo dos meus estudos, adquiri uma sólida base teórica e prática em
+                                engenharia informática,
+                                focando especialmente no desenvolvimento de softwares WEB e Desktop. Minha habilidade no
+                                desenvolvimento de softwares WEB
+                                inclui proficiência em linguagens como HTML, CSS, JavaScript,php,Java,C,C# (incluíndo o NodeJS,Laravel) e
+                                frameworks modernos.
+                            </p> <br>
+                            <div class="sobre-btn">
+                                <a href="">
+                                    <button class="btn">Baixar Portfólio <i class="bx bx-file"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Materialize</span>
+                                <span>Bottstrap</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                
+                                <span>NodeJS</span>
+                                <span>C# .Net AspNet</span>
+                                <span>PHP</span>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="mercado">
+                <div class="hide">
+                    <a href="projetos.html" id="projetos"></a>
+                    <!-- <a href="clientes.html" id="clientes"></a> -->
+                </div>
+                <div class="top-header">
+                    <h1>Mercado</h1>
+                </div>
+                <div class="project-container">
+
+                    <div class="project-box">
+                        <i class="bx bx-briefcase-alt"></i>
+                        <h3>Projetos</h3>
+                        <label>4+ projetos completos</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="bx bx-group"></i>
+                        <h3>Clientes</h3>
+                        <label>5+ clientes satisfeitos</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="bx bx-award"></i>
+                        <h3>Experiência</h3>
+                        <label><span id="experiencia"></span> anos desevolvendo softwares</label>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- contato BOX ---------------- -->
+            <section class="section" id="contato">
+                <div class="top-header">
+                    <h1>Comece com um clique</h1>
+                    <span>Pretendes um software ou Tens um em mente? Contata-me e considere FEITO</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contato-info">
+                            <h2>Contata-me</h2>
+                            <p><i class="bx bx-envelope"></i>diosthen.0007@gmail.com</p>
+                            <p><i class="bx bx-phone"></i> 940 20 43 46</p> <br>
+                            <p><i class="bx bxl-facebook"></i>Diosthen Marks Eisntein</p>
+                            <p><i class="bx bxl-linkedin"></i> linkedin.com/Diosthenes da Costa/</p>
+                            <p><i class="bx bxl-github"></i> <a href="https://github.com/Diosthen/Diosthena">github.com/Diosthen/Diosthena </a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="baixar-docs">
+                            <h2>Serviços prestados</h2><br>
+                           <h1>Consultoria:Web softwares.</h1>
+                           <h1>Cursos de Treinamento tecnológicos.</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Diosthenes da Costa .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#inicio">Início</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#mercado">Mercado</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="#contato">
+                    <div class="icon"><i class="bx bx-phone"></i></div>
+                </a>
+                <a href="">
+                    <div class="icon"><i class="bx bxl-facebook"></i></div>
+                </a>
+                <a href="">
+                    <div class="icon"><i class="bx bxl-linkedin"></i></div>
+                </a>
+                <a href="">
+                    <div class="icon"><i class="bx bxl-github"></i></div>
+                </a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <span id="ano_criacao">2024</span> <a href="#inicio"
+                        style="text-decoration: none;">Diosthenes da Costa</a> - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="typed.umd.js"></script>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="scrollreveal.js"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+
+    <script>
+        var ano_criacao = document.getElementById('ano_criacao').textContent;
+        var ano_atual = new Date().getFullYear();
+        var ano_comeco_experiencia = 2016;
+
+
+        document.getElementById('experiencia').innerText = ano_atual - ano_comeco_experiencia;
+
+        if (ano_atual > ano_criacao) {
+            document.getElementById('ano_criacao').innerText += ` - ${ano_atual}`;
+        }
+
+        document.getElementsByClassName('project-box')[0].addEventListener('click', () => {
+            document.getElementById('projetos').click();
+        })
+
+        document.getElementsByClassName('project-box')[1].addEventListener('click', () => {
+            document.getElementById('clientes').click();
+        })
+
+
+    </script>
+</body>
+
+</html>
